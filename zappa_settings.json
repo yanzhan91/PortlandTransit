@@ -3,15 +3,15 @@
         "app_function": "main.app",
         "aws_region": "us-east-1",
         "profile_name": "default",
-        "s3_bucket": "{{city}}-transit",
+        "s3_bucket": "portland-transit",
         "environment_variables": {
             "transit_api_url": "https://0izohjr8ng.execute-api.us-east-2.amazonaws.com/dev",
-            "city": "{{City}}",
-            "agencies": "{{agencies}}",
-            "example_agency": "{{example_agency}}",
-            "example_route": "{{example_route}}",
-            "example_stop": "{{example_stop}}",
-            "website": "{{webite_name}}"
+            "city": "Portland",
+            "agencies": "tri met bus",
+            "example_agency": "tri met bus",
+            "example_route": "9",
+            "example_stop": "4651",
+            "website": "tri met website"
         }
     }
 }
